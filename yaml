@@ -1,0 +1,16 @@
+name: VanishPlugin
+main: com.stayrior.vanish.VanishPlugin
+version: 1.0
+api-version: 1.21
+authors: [stayrior]
+commands:
+  vanish:
+    description: Toggle vanish or change outline color
+    usage: /vanish or /vanish outline <color>
+permissions:
+  vanish.use:
+    description: Allows using /vanish
+    default: op
+  vanish.outline:
+    description: Allows changing vanish outline color
+    default: op
